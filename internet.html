@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Internet</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>EducaWeb</h1>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="internet.html">Internet en la educación</a></li>
+        <li><a href="herramientas.html">Herramientas</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="testimonios.html">Testimonios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="ix-hero">
+    <div class="ix-hero-left">
+      <h2 class="ix-hero-title">El Internet en la educación: una revolución en el aula</h2>
+      <p class="ix-hero-sub">Transforma tus clases con herramientas digitales, aprendizaje activo y seguridad en línea
+      </p>
+      <div class="ix-hero-cta">
+        <a class="btn ix-btn-primary" href="#ix-benefits">Ver beneficios</a>
+
+      </div>
+
+      <div class="ix-quick-stats">
+        <div class="ix-stat">
+          <div class="ix-stat-number" data-target="89">89%</div>
+          <div class="ix-stat-label">Hogares con Internet</div>
+        </div>
+        <div class="ix-stat">
+          <div class="ix-stat-number" data-target="78">78%</div>
+          <div class="ix-stat-label">Estudiantes usan redes sociales para el colegio</div>
+        </div>
+        <div class="ix-stat">
+          <div class="ix-stat-number" data-target="94">94%</div>
+          <div class="ix-stat-label">Considera el Internet como apoyo académico</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="ix-hero-right">
+      <!-- animación SVG + video preview -->
+      <div class="ix-visual-card">
+        <div class="ix-visual-canvas" id="ixCanvas"></div>
+        <div class="ix-play" data-video="https://www.youtube.com/embed/ZOLaQ_p5Jtk?si=oLDAO2wtkYktYKUE">
+          <i class="fas fa-play"></i> Ver video
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class="ix-main">
+    <!-- ===== NUEVO: BENEFICIOS EN CARDS INTERACTIVAS ===== -->
+    <section id="ix-benefits" class="ix-section ix-benefits">
+      <h3>Beneficios del buen uso de Internet en la educación</h3>
+      <div class="ix-cards">
+        <article class="ix-card" data-color="#00c2ff">
+          <div class="ix-card-head"><i class="fas fa-globe"></i></div>
+          <h4>Acceso a recursos</h4>
+          <p>Información global: bibliotecas, artículos científicos y cursos. (Fuente: MinTIC / UNESCO)</p>
+        </article>
+
+        <article class="ix-card" data-color=" #8c2df2">
+          <div class="ix-card-head"><i class="fas fa-chalkboard-teacher"></i></div>
+          <h4>Clases más activas</h4>
+          <p>Herramientas interactivas: simuladores, quizzes y proyectos colaborativos</p>
+        </article>
+
+        <article class="ix-card" data-color="#ff6b6b">
+          <div class="ix-card-head"><i class="fas fa-user-shield"></i></div>
+          <h4>Seguridad digital</h4>
+          <p>Protección de datos y aprendizaje sobre privacidad y ciberseguridad</p>
+        </article>
+
+        <article class="ix-card" data-color="#44b65e">
+          <div class="ix-card-head"><i class="fas fa-universal-access"></i></div>
+          <h4>Acceso ilimitado a la información</h4>
+          <p>Acceso instantáneo a la biblioteca más grande del mundo desde cualquier lugar y dispositivo</p>
+        </article>
+
+        <article class="ix-card" data-color="#ffd166">
+          <div class="ix-card-head"><i class="fas fa-brain"></i></div>
+          <h4>Desarrollo de competencias</h4>
+          <p>Pensamiento crítico y alfabetización mediática para evaluar fuentes</p>
+        </article>
+
+        <article class="ix-card" data-color="#658cdf">
+          <div class="ix-card-head"><i class="fas fa-cogs"></i></div>
+          <h4>Aprendizaje dinámico e interactivo</h4>
+          <p>Clases más atractivas y fáciles de entender gracias a plataformas interactivas y recursos de gamificación
+          </p>
+        </article>
+
+        <article class="ix-card" data-color="#cb65df">
+          <div class="ix-card-head"><i class="fas fa-book-open-reader"></i></div>
+          <h4>Fomento de la autonomía y autoformación</h4>
+          <p>Permite al estudiante investigar, resolver dudas y profundizar en temas a su propio ritmo</p>
+        </article>
+
+        <article class="ix-card" data-color="#ee6060">
+          <div class="ix-card-head"><i class="fas fa-people-group"></i></div>
+          <h4>Colaboración y comunicación global</h4>
+          <p>Facilita el trabajo en equipo sin fronteras mediante herramientas digitales, foros y videollamadas</p>
+        </article>
+      </div>
+
+    </section>
+
+    <section class="section-risks-alert bg-danger-gradient reveal">
+      <div class="container">
+        <h2 class="section-title-riesgos text-white">Zona de peligro: riesgos de la navegación</h2>
+        <p class="section-description text-white-opacity">
+          La tecnología es una fuerza positiva, pero su uso requiere cautela. Conoce los riesgos para mitigarlos y
+          navegar con seguridad
+        </p>
+
+        <div class="risks-alert-grid">
+          <div class="risk-alert-card animate-shake reveal-from-bottom">
+            <i class="fas fa-eye-slash alert-icon"></i>
+            <h3>Distracción constante</h3>
+            <p>El entretenimiento es ilimitado. Sin gestión de atención, el estudio se detiene y la productividad cae a
+              cero</p>
+            <div class="alert-border"></div>
+          </div>
+
+          <div class="risk-alert-card animate-shake reveal-from-bottom delay-1">
+            <i class="fas fa-mask alert-icon"></i>
+            <h3>Información falsa (Fakenews)</h3>
+            <p>Riesgo constante de acceder a información sesgada o poco confiable. Debes desarrollar tu pensamiento
+              crítico</p>
+            <div class="alert-border"></div>
+          </div>
+
+          <div class="risk-alert-card animate-shake reveal-from-bottom delay-2">
+            <i class="fas fa-laptop-code alert-icon"></i>
+            <h3>La persistente brecha digital</h3>
+            <p>El acceso no es universal. La falta de acceso a tecnología de calidad puede agravar las desigualdades
+              educativas</p>
+            <div class="alert-border"></div>
+          </div>
+
+          <div class="risk-alert-card animate-shake reveal-from-bottom delay-3">
+            <i class="fas fa-user-lock alert-icon"></i>
+            <h3>Ciberseguridad y privacidad</h3>
+            <p>Peligros de ciberacoso (cyberbullying), contraseñas débiles y protección deficiente de datos personales
+            </p>
+            <div class="alert-border"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-practices reveal">
+      <div class="container">
+        <h3 class="section-title">Buenas prácticas: uso ético y efectivo</h3>
+        <p class="section-description">
+          La solución a cada riesgo reside en la educación. Adopta estas prácticas para un uso ético y efectivo del
+          Internet
+        </p>
+
+        <div class="practices-grid">
+          <div class="practice-card animate-scale-in">
+            <div class="practice-card-inner">
+              <div class="card-front">
+                <i class="fas fa-magnifying-glass-chart"></i>
+                <h3>Fomento del pensamiento crítico</h3>
+                <p>¡Haz hover o toca para ver la clave contra la Fakenews!</p>
+              </div>
+              <div class="card-back">
+                <p>Incluir un fuerte componente de alfabetización mediática para que los jóvenes puedan verificar
+                  fuentes y evaluar la credibilidad del contenido en línea</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="practice-card animate-scale-in delay-1">
+            <div class="practice-card-inner">
+              <div class="card-front">
+                <i class="fas fa-hands-bubbles"></i>
+                <h3>Gestión de la atención y enfoque</h3>
+                <p>¡Haz hover o toca para ver el tip contra la distracción!</p>
+              </div>
+              <div class="card-back">
+                <p>Enseñar a los estudiantes a gestionar su atención y a limitar el uso de redes sociales o juegos
+                  durante las horas de clase o estudio para un enfoque total</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="practice-card animate-scale-in delay-2">
+            <div class="practice-card-inner">
+              <div class="card-front">
+                <i class="fas fa-shield-virus"></i>
+                <h3>Educación sobre ciberseguridad</h3>
+                <p>¡Haz hover o toca para ver cómo protegerte!</p>
+              </div>
+              <div class="card-back">
+                <p>Es vital educar sobre los peligros del ciberacoso, la seguridad de las contraseñas y la protección de
+                  datos personales en el entorno digital</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="practice-card animate-scale-in delay-3">
+            <div class="practice-card-inner">
+              <div class="card-front">
+                <i class="fas fa-people-group"></i>
+                <h3>Colaboración y redes de estudio</h3>
+                <p>¡Haz hover o toca para ver cómo estudiar en equipo!</p>
+              </div>
+              <div class="card-back">
+                <p>Crea grupos de estudio o foros especializados en plataformas seguras para compartir información,
+                  debatir temas de clase y resolver dudas de manera informal y colaborativa</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="practice-card animate-scale-in delay-4">
+            <div class="practice-card-inner">
+              <div class="card-front">
+                <i class="fas fa-book-open-reader"></i>
+                <h3>Impulsa tu autoformación</h3>
+                <p>¡Haz hover o toca para ver el secreto de la autonomía!</p>
+              </div>
+              <div class="card-back">
+                <p>Aprovecha la web para ir más allá del currículo. Busca cursos en línea gratuitos, tutoriales y
+                  recursos de profundización sobre temas que te apasionen para complementar tu aprendizaje</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== NUEVO: Modal de video embebido ===== -->
+    <div id="ixVideoModal" class="ix-video-modal" aria-hidden="true">
+      <div class="ix-video-wrap">
+        <button class="ix-close-video" aria-label="Cerrar video">X</button>
+        <iframe id="ixVideoFrame" width="900" height="506" src="" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <!-- Mantener footer del proyecto -->
+    <footer id="footer" class="site-footer">
+      <div class="footer-container">
+        <h2 class="footer-title">Conéctate con nosotros</h2>
+        <div class="footer-socials">
+          <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright ©2025 | Hermanos Bartels | Todos los derechos reservados</p>
+      </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <!-- Mantener script.js global del proyecto -->
+    <script src="js/script.js"></script>
+
+    <!-- NUEVO: scripts específicos añadidos al final de js/script.js (buscar // NUEVO: INTERNET PAGE) -->
+    <!-- (No es necesario añadir otro archivo; pega el JS nuevo al final de js/script.js) -->
+
+</body>
+
+</html>

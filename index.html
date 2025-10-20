@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <h1>EducaWeb</h1>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="internet.html">Internet en la educación</a></li>
+        <li><a href="herramientas.html">Herramientas</a></li>
+        <li><a href="tips.html">Tips</a></li>
+        <li><a href="testimonios.html">Testimonios</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Primera imagen parallax -->
+  <section class="parallax" style="background-image: url('img/index_portada.jpg');">
+    <div class="header-content">
+      <h1 class="main-title">El Internet transforma la educación</h1>
+      <div class="divider"></div>
+      <p class="subtitle">¡Rendimiento y autonomía digital comprobados!</p>
+    </div>
+  </section>
+
+  <!-- Contenido 1 -->
+  <section class="content">
+  </section>
+
+  <!-- Segunda imagen parallax -->
+  <section class="parallax2" style="background-image: url('img/index_subportada.png');">
+    <div class="text-box">
+      <h2>¿Por qué es crucial el enfoque digital hoy?</h2>
+      <p>Colombia experimenta una expansión significativa en su infraestructura digital, con datos del MinTIC indicando
+        que más del 70% de los hogares ya cuentan con algún tipo de acceso a Internet. Esta penetración masiva en la
+        sociedad de la información, destacada por autores como Castells (2001) , exige una nueva competencia: la
+        capacidad de analizar, valorar e integrar la información disponible.</p>
+      <p>
+      <ul>
+        <li><strong>Acceso Ilimitado:</strong> La red funciona como un soporte técnico imprescindible, rompiendo
+          barreras temporales y espaciales, y ofreciendo una cantidad ingente de recursos didácticos.</li><br>
+        <li><strong>Servicio Esencial:</strong> El Estado colombiano, a través de la Ley 2108 de 2021, ha reconocido el
+          acceso a Internet como un derecho y un servicio público fundamental.</li><br>
+        <li><strong>Autonomía y Competencia:</strong> Fomentamos la autoformación y el desarrollo de competencias
+          digitales, habilidades esenciales requeridas en el mundo laboral y académico contemporáneo.</li>
+      </ul>
+      </p>
+
+      <a href="#footer" class="btn">Síguenos</a>
+    </div>
+  </section>
+
+  <!-- Contenido 2 -->
+  <section class="content">
+  </section>
+
+  <!-- Contenido 3 -->
+  <section class="gallery-section">
+    <h2>8 Pilares para el éxito digital: de la conexión a la competencia</h2>
+    <h3>Dominar el entorno virtual exige habilidades clave. Haz clic en cada pilar para explorar las competencias
+      esenciales que te ayudarán a ser un mejor ciudadano digital y elevarán tu rendimiento académico.</h3>
+    <div class="gallery">
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_autonomia.png" alt="Fomentar la autoformación"
+          data-text="El Internet te empodera como gestor de tu educación. Desarrolla la habilidad de investigar de forma independiente, resolver dudas y profundizar en temas de interés. Esto es clave para el futuro académico y laboral, donde la adaptabilidad es esencial."
+          data-date="">
+        <div class="overlay">Autonomía y autoformación</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_filtrado.png" alt="Dominio del filtrado crítico"
+          data-text="La red contiene una cantidad ingente de información (útil, trivial, inoperante). El dominio digital radica en la capacidad de analizar, valorar e integrar la información diversa. Aprende a verificar fuentes y a priorizar la autoridad y el respaldo académico sobre el volumen."
+          data-date="">
+        <div class="overlay">Filtrado crítico de información</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_acceso.jpg" alt="Conexión sin barreras"
+          data-text="El internet es el soporte técnico imprescindible que rompe las barreras temporales y espaciales del aula física. Aprovecha esta ventaja para acceder a bibliotecas virtuales, cursos MOOCs (UNAD) y recursos didácticos globales en tiempo real."
+          data-date="">
+        <div class="overlay">Acceso y conexión global</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_ciberseguridad.jpg" alt="Ciberseguridad y privacidad"
+          data-text="La seguridad es un pilar de la competencia digital (Marco DigComp). Implica la protección personal, de datos y de la identidad digital. Usa contraseñas robustas y sé consciente de tu huella en línea para garantizar un uso seguro y sostenible de las TIC."
+          data-date="">
+        <div class="overlay">Ciberseguridad y privacidad</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_creatividad.jpg" alt="Creatividad y solución de problemas"
+          data-text="El estudiante digital no solo consume, sino que crea. Esta competencia abarca la capacidad de identificar la herramienta digital apropiada para una necesidad, usar las tecnologías de forma creativa y resolver problemas conceptuales a través de medios digitales."
+          data-date="">
+        <div class="overlay">Creatividad y solución de problemas</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_respaldo.png" alt="Respaldo y marco legal TIC"
+          data-text="Entender el contexto legal te da confianza. El Estado colombiano, mediante la Ley 2108 de 2021, ha declarado el acceso a internet como un servicio público esencial y un derecho. Esto impulsa a las instituciones a fomentar activamente el uso de estas herramientas modernas (Ley 115)."
+          data-date="">
+        <div class="overlay">Respaldo y marco legal TIC</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_organizacion.jpg" alt="Organización y optimización"
+          data-text="Maximiza tu tiempo organizando tu entorno digital. Esto incluye saber cómo organizar archivos de forma correcta en la nube y usar aplicaciones de curación de contenidos y extensiones de navegador para facilitar un acceso rápido y eficiente a la información."
+          data-date="">
+        <div class="overlay">Organización y optimización</div>
+      </div>
+      <div class="gallery-item" onclick="openModal(this)">
+        <img src="img/index_inclusion.jpg" alt="Herramienta de inclusión social"
+          data-text="El acceso digital es un factor clave para la inclusión social y la reducción de la brecha digital. El internet promueve la equidad al ofrecer múltiples canales de aprendizaje, ayudando a responder a la diversidad de necesidades de las niñas y niños, tal como lo define la UNESCO."
+          data-date="">
+        <div class="overlay">Herramienta de inclusión social</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal estilo Instagram -->
+  <div id="imageModal" class="modal">
+    <div class="modal-content-box">
+
+      <!-- Botón cerrar -->
+      <span class="close" onclick="closeModal()">X</span>
+
+      <!-- Columna izquierda: Imagen -->
+      <div class="modal-left">
+        <img id="modalImage" src="" alt="Imagen ampliada">
+      </div>
+
+      <!-- Columna derecha: Texto -->
+      <div class="modal-right">
+        <h2 id="modalTitle"></h2>
+        <hr class="modal-line">
+        <p id="modalText">
+        </p>
+        <div class="modal-date">
+          <hr>
+          <p id="modalDate"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer id="footer" class="site-footer">
+    <div class="footer-container">
+      <h2 class="footer-title">Conéctate con nosotros</h2>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p>Copyright ©2025 | Hermanos Bartels | Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
